@@ -23,6 +23,7 @@ const generateReadMe = async () => {
         "Load data for Mustache template in [./index.js](./index.js)",
         "Auto update README.md on file changes",
         "CRON job to update README.md with GitHub Actions",
+        "Make sure to allow the GitHub action to commit changes by going to `Settings > Actions > General > Workflow permissions` and select 'Read and write permissions'",
         "Edit or disable with [./.github/workflows/main.yml](./.github/workflows/main.yml)",
       ],
     })
