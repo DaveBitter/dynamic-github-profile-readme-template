@@ -1,2 +1,19 @@
-# dynamic-github-profile-readme-template
-A template repository for a dynamic GitHub profile Readme through Node.js, templating and GitHub actions
+# Dynamic GitHub Profile Readme Template
+
+## Get Started
+
+- Click on `Use this template` button on the top right corner
+- Name your repository as GitHub username
+- Clone the repository
+- Run `yarn install`
+- Run `yarn dev`
+- Edit [./main.mustache](./main.mustache) and save
+- See changes being made to [./README.md](./README.md)
+
+## Features
+
+- Templating through [Mustache](https://github.com/janl/mustache.js)
+- Load data for Mustache template in [./index.js](./index.js)
+- Auto update README.md on file changes
+- CRON job to update README.md with GitHub Actions
+- Edit or disable with [./.github/workflows/main.yml](./.github/workflows/main.yml)
